@@ -18,9 +18,7 @@ urlpatterns = [
     # Include URL patterns from myapp.urls
     path('myapp/', include('myapp.urls')),
     path('accounts/', include('accounts.urls')),
-    
-    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
-    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
+
 ]
 
 # Serve media files during development
