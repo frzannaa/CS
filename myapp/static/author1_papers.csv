@@ -1,0 +1,41 @@
+Title,Authors,Publication Date,DOI,Source
+A lightweight deep learning with feature weighting for activity recognition,Ige A.O.,2023-04-01,10.1111/coin.12565,Computational Intelligence
+Subject variability in sensor-based activity recognition,Jimale A.O.,2023-04-01,10.1007/s12652-021-03465-6,Journal of Ambient Intelligence and Humanized Computing
+An explainable predictive model for suicide attempt risk using an ensemble learning and Shapley Additive Explanations (SHAP) approach,Nordin N.,2023-01-01,10.1016/j.ajp.2022.103316,Asian Journal of Psychiatry
+Suicidal behaviour prediction models using machine learning techniques: A systematic review,Nordin N.,2022-10-01,10.1016/j.artmed.2022.102395,Artificial Intelligence in Medicine
+Deep Temporal Conv-LSTM for Activity Recognition,Mohd Noor M.H.,2022-10-01,10.1007/s11063-022-10799-5,Neural Processing Letters
+A survey on unsupervised learning for wearable sensor-based activity recognition,Ige A.O.,2022-09-01,10.1016/j.asoc.2022.109363,Applied Soft Computing
+Weakly-supervised temporal action localization: a survey,Baraka A.R.,2022-06-01,10.1007/s00521-022-07102-x,Neural Computing and Applications
+Explainable Machine Learning Models for Suicidal Behavior Prediction,Nordin N.,2022-05-15,10.1145/3545729.3545754,ACM International Conference Proceeding Series
+Unsupervised Feature Learning in Activity Recognition using Convolutional Denoising Autoencoders with Squeeze and Excitation Networks,Ige A.O.,2022-01-01,10.1109/ICOIACT55506.2022.9972095,"ICOIACT 2022 - 5th International Conference on Information and Communications Technology: A New Way to Make AI Useful for Everyone in the New Normal Era, Proceeding"
+A Survey on Waste Detection and Classification Using Deep Learning,Abdu H.,2022-01-01,10.1109/ACCESS.2022.3226682,IEEE Access
+Domestic Trash Classification with Transfer Learning Using VGG16,Abdu H.,2022-01-01,10.1109/ICCSCE54767.2022.9935653,"ICCSCE 2022 - Proceedings: 2022 12th IEEE International Conference on Control System, Computing and Engineering"
+Fully Connected Generative Adversarial Network for Human Activity Recognition,Jimale A.O.,2022-01-01,10.1109/ACCESS.2022.3206952,IEEE Access
+Covid-19 detection via deep neural network and occlusion sensitivity maps,Aminu M.,2021-10-01,10.1016/j.aej.2021.03.052,Alexandria Engineering Journal
+Feature learning using convolutional denoising autoencoder for activity recognition,Mohd Noor M.H.,2021-09-01,10.1007/s00521-020-05638-4,Neural Computing and Applications
+A unified generative model using generative adversarial network for activity recognition,Chan M.H.,2021-07-01,10.1007/s12652-020-02548-0,Journal of Ambient Intelligence and Humanized Computing
+Efficientnet-Lite and Hybrid CNN-KNN Implementation for Facial Expression Recognition on Raspberry Pi,Ab Wahab M.N.,2021-01-01,10.1109/ACCESS.2021.3113337,IEEE Access
+Detection of Freezing of Gait Using Unsupervised Convolutional Denoising Autoencoder,Noor M.H.M.,2021-01-01,10.1109/ACCESS.2021.3104975,IEEE Access
+An Efficient Multi-sensor Positions Human Activity Recognition: Elderly Peoples in Rural Areas in Focus,Abdu H.,2021-01-01,10.1007/978-3-030-80216-5_15,Lecture Notes in Networks and Systems
+A comparative study of machine learning techniques for suicide attempts predictive model,Nordin N.,2021-01-01,10.1177/1460458221989395,Health Informatics Journal
+Ontology-based sensor fusion activity recognition,Noor M.H.M.,2020-08-01,10.1007/s12652-017-0668-0,Journal of Ambient Intelligence and Humanized Computing
+Deep convolution neural network for crack detection on asphalt pavement,Yusof N.A.M.,2019-12-03,10.1088/1742-6596/1349/1/012020,Journal of Physics: Conference Series
+Activity Recognition using Deep Denoising Autoencoder,Mohd Noor M.H.,2019-11-01,10.1109/ICCSCE47578.2019.9068571,"Proceedings - 9th IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2019"
+Automated Asphalt Pavement Crack Detection and Classification using Deep Convolution Neural Network,Yusof N.A.M.,2019-11-01,10.1109/ICCSCE47578.2019.9068551,"Proceedings - 9th IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2019"
+Implementation of piezoelectric sensor in gait measurement system,Talib N.A.,2019-04-08,10.1109/ICCSCE.2018.8685027,"Proceedings - 8th IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2018"
+Crack detection and classification in asphalt pavement images using deep convolution neural network,Yusof N.A.M.,2019-04-08,10.1109/ICCSCE.2018.8685007,"Proceedings - 8th IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2018"
+Adaptive sliding window segmentation for physical activity recognition using a single tri-axial accelerometer,Noor M.H.M.,2017-07-01,10.1016/j.pmcj.2016.09.009,Pervasive and Mobile Computing
+Enhancing ontological reasoning with uncertainty handling for activity recognition,Noor M.H.M.,2016-12-15,10.1016/j.knosys.2016.09.028,Knowledge-Based Systems
+Dynamic sliding window method for physical activity recognition using a single tri-axial accelerometer,Noor M.,2015-11-20,10.1109/ICIEA.2015.7334092,"Proceedings of the 2015 10th IEEE Conference on Industrial Electronics and Applications, ICIEA 2015"
+New FES-assisted knee swinging ergometer for stroke patient: A design and simulation study,Boudville R.,2014-01-20,10.5755/j01.eee.20.1.6168,Elektronika ir Elektrotechnika
+Gel electrophoresis image segmentation with kapur method based on particle swarm optimization,Ahmad A.R.,2013-09-09,10.1109/CICSYN.2013.60,"Proceedings - 5th International Conference on Computational Intelligence, Communication Systems, and Networks, CICSyN 2013"
+Intelligent breast cancer diagnosis using hybrid GA-ANN,Ahmad F.,2013-09-09,10.1109/CICSYN.2013.67,"Proceedings - 5th International Conference on Computational Intelligence, Communication Systems, and Networks, CICSyN 2013"
+A miniaturization using Surface Mount Technology of potentiometric indicator system for measuring human stress,Abdullah M.F.,2012-12-01,10.1109/ISIEA.2012.6496673,ISIEA 2012 - 2012 IEEE Symposium on Industrial Electronics and Applications
+Compact single hidden layer feedforward network for mycobacterium tuberculosis detection,Osman M.K.,2011-12-01,10.1109/ICCSCE.2011.6190565,"Proceedings - 2011 IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2011"
+Improvement moving vehicle detection using RGB removal shadow segmentation,Ahmad K.A.,2011-12-01,10.1109/ICCSCE.2011.6190489,"Proceedings - 2011 IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2011"
+Multilevel thresholding of gel electrophoresis images using firefly algorithm,Mohd Noor M.,2011-12-01,10.1109/ICCSCE.2011.6190488,"Proceedings - 2011 IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2011"
+Self adaptive neuro-fuzzy control of FES-assisted paraplegics indoor rowing exercise,Hussain Z.,2011-12-01,10.1109/ICCSCE.2011.6190486,"Proceedings - 2011 IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2011"
+Evaluation of spreading factor inertial weight PSO for FLC of FES-assisted paraplegic indoor rowing exercise,Hussain Z.,2011-05-30,10.1109/CSPA.2011.5759916,"Proceedings - 2011 IEEE 7th International Colloquium on Signal Processing and Its Applications, CSPA 2011"
+Moving vehicle segmentation in a dynamic background using self-adaptive Kalman background method,Ahmad K.,2011-05-30,10.1109/CSPA.2011.5759918,"Proceedings - 2011 IEEE 7th International Colloquium on Signal Processing and Its Applications, CSPA 2011"
+Gel electrophoresis image segmentation with Otsu method based on particle swarm optimization,Mohd Noor M.,2011-05-30,10.1109/CSPA.2011.5759915,"Proceedings - 2011 IEEE 7th International Colloquium on Signal Processing and Its Applications, CSPA 2011"
+A review on feature extraction &amp; classification techniques for biosignal processing (Part V: Gait signal),Tamil E.M.,2008-01-01,10.1007/978-3-540-69139-6_34,IFMBE Proceedings

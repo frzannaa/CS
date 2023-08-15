@@ -1,0 +1,51 @@
+Title,Authors,Publication Date,DOI,Source
+A Deep Learning Model with Name Attention to Predict the Stock Trend from News Headline,Tan T.P.,2023-01-01,10.1007/978-981-19-8406-8_29,Lecture Notes in Electrical Engineering
+Bi-Branch Vision Transformer Network for EEG Emotion Recognition,Lu W.,2023-01-01,10.1109/ACCESS.2023.3266117,IEEE Access
+Using Informative Score for Instance Selection Strategy in Semi-Supervised Sentiment Classification,Shan V.L.L.,2023-01-01,10.32604/cmc.2023.033752,"Computers, Materials and Continua"
+"Bilingual Automatic Speech Recognition: A Review, Taxonomy and Open Challenges",Abushariah A.A.M.,2023-01-01,10.1109/ACCESS.2022.3218684,IEEE Access
+Text analytics of vaccine myths on reddit,Wong S.S.C.,2022-12-30,10.4018/978-1-6684-6242-3.ch013,Handbook of Research on Artificial Intelligence Applications in Literary Works and Social Media
+Product aspect ranking using multi-criteria decision making,Ahmad Alrababah S.A.,2022-06-24,10.4018/978-1-6684-4168-8.ch004,Handbook of Research on Consumer Behavior Change and Data Analytics in the Socio-Digital Era
+Learning to Automatically Generating Genre-Specific Song Lyrics: A Comparative Study,Tee T.H.,2022-01-01,10.1007/978-3-031-21422-6_5,Communications in Computer and Information Science
+Sliding Window and Parallel LSTM with Attention and CNN for Sentence Alignment on Low-Resource Languages,Tan T.P.,2022-01-01,10.47836/pjst.30.1.06,Pertanika Journal of Science and Technology
+Spatial information extraction from travel narratives: Analysing the notion of co-occurrence indicating closeness of tourist places,Haris E.,2020-10-01,10.1177/0165551519837188,Journal of Information Science
+Examining Machine Learning Techniques in Business News Headline Sentiment Analysis,Lim S.L.O.,2020-01-01,10.1007/978-981-15-0058-9_35,Lecture Notes in Electrical Engineering
+Semi-supervised learning for sentiment classification using small number of labeled data,Shan Lee V.L.,2019-01-01,10.1016/j.procs.2019.11.159,Procedia Computer Science
+A hybrid of sentence-level approach and fragment-level approach of parallel text extraction from comparable text,Yeong Y.L.,2019-01-01,10.1016/j.procs.2019.11.139,Procedia Computer Science
+Applying linguistic G2P knowledge on a statistical grapheme-to-phoneme conversion in Khmer,Sar V.,2019-01-01,10.1016/j.procs.2019.11.140,Procedia Computer Science
+A text representation model using Sequential Pattern-Growth method,Alias S.,2018-02-01,10.1007/s10044-017-0624-9,Pattern Analysis and Applications
+Evaluating Code-Switched Malay-English Speech Using Time Delay Neural Networks,Singh A.,2018-01-01,10.21437/SLTU.2018-41,"6th Workshop on Spoken Language Technologies for Under-Resourced Languages, SLTU 2018"
+Hybrid machine translation with multi-source encoder-decoder long short-term memory in English-Malay translation,Yeong Y.L.,2018-01-01,10.18517/ijaseit.8.4-2.6816,"International Journal on Advanced Science, Engineering and Information Technology"
+MYTextSum: A Malay Text Summarizer Model Using a Constrained Pattern-Growth Sentence Compression Technique,Alias S.,2018-01-01,10.1007/978-981-10-8276-4_14,Lecture Notes in Electrical Engineering
+Mining opinionated product features using WordNet lexicographer files,Alrababah S.A.A.,2017-12-01,10.1177/0165551516667651,Journal of Information Science
+Malay speech corpus of telecommunication call center preparation for ASR,Draman M.,2017-10-18,10.1109/ICoICT.2017.8074675,"2017 5th International Conference on Information and Communication Technology, ICoIC7 2017"
+Comparative analysis of MCDM methods for product aspect ranking: TOPSIS and VIKOR,Alrababah S.A.A.,2017-05-08,10.1109/IACS.2017.7921949,"2017 8th International Conference on Information and Communication Systems, ICICS 2017"
+"Extract, compress and summarize–An experiment using Malay news article",Alias S.,2017-05-01,10.1166/asl.2017.8317,Advanced Science Letters
+Product aspect ranking using sentiment analysis and TOPSIS,Alrababah S.A.A.A.,2017-01-04,10.1109/INFRKM.2016.7806327,"2016 3rd International Conference on Information Retrieval and Knowledge Management, CAMP 2016 - Conference Proceedings"
+A Malay text summarizer using pattern-growth method with sentence compression rules,Alias S.,2017-01-04,10.1109/INFRKM.2016.7806326,"2016 3rd International Conference on Information Retrieval and Knowledge Management, CAMP 2016 - Conference Proceedings"
+Automatic phoneme identification for Malay dialects,Khaw Y.M.J.,2017-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+"Evaluating lstm networks, hmm and wfst in Malay part-of-speech tagging",Tan T.P.,2017-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Using Dictionary and Lemmatizer to Improve Low Resource English-Malay Statistical Machine Translation System,Yeong Y.L.,2016-01-01,10.1016/j.procs.2016.04.056,Procedia Computer Science
+Mandarin–English code-switching speech corpus in South-East Asia: SEAME,Lyu D.C.,2015-09-25,10.1007/s10579-015-9303-x,Language Resources and Evaluation
+A grapheme and phone rescoring combination system for Malay broadcast news recognition,Khalaf Z.A.,2015-08-31,10.1109/ChinaSIP.2015.7230423,"2015 IEEE China Summit and International Conference on Signal and Information Processing, ChinaSIP 2015 - Proceedings"
+Merging of native and non-native speech for low-resource accented ASR,Juan S.S.,2015-01-01,10.1007/978-3-319-25789-1_24,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+A fast adaptation technique for building dialectal malay speech synthesis acoustic model,Jasmina Khaw Y.M.,2015-01-01,10.11113/jt.v77.6514,Jurnal Teknologi
+A system combination for malay broadcast news transcription,Khalaf Z.A.,2015-01-01,10.11113/jt.v77.6511,Jurnal Teknologi
+Acoustic model merging using acoustic models from multilingual speakers for automatic speech recognition,Tan T.P.,2014-12-03,10.1109/IALP.2014.6973492,"Proceedings of the International Conference on Asian Language Processing 2014, IALP 2014"
+Hybrid approach for aligning parallel sentences for languages without a written form using standard Malay and Malay dialects,Khaw Y.M.J.,2014-12-03,10.1109/IALP.2014.6973524,"Proceedings of the International Conference on Asian Language Processing 2014, IALP 2014"
+Solving asymmetric traveling salesman problems using a generic bee colony optimization framework with insertion local search,Wong L.P.,2014-10-10,10.1109/ISDA.2013.6920757,"International Conference on Intelligent Systems Design and Applications, ISDA"
+A bee colony optimization with automated parameter tuning for sequential ordering problem,Wun M.,2014-04-01,10.1109/WICT.2014.7077286,"2014 4th World Congress on Information and Communication Technologies, WICT 2014"
+Using closely-related language to build an ASR for a very under-resourced language: Iban,Juan S.S.,2014-02-27,10.1109/ICSDA.2014.7051423,Oriental COCOSDA 2014 - 17th Conference of the Oriental Chapter of the International Coordinating Committee on Speech Databases and Speech I/O Systems and Assessment / CASLRE (Conference on Asian Spoken Language Research and Evaluation)
+Preparation of MaDiTS Corpus for Malay Dialect Translation and Speech Synthesis System,Khaw Y.M.J.,2014-01-01,N/A,"2nd Workshop on Speech, Language and Audio in Multimedia, SLAM 2014"
+Language identification of code switching sentences and multilingual sentences of under-resourced languages by using multi structural word information,Yeong Y.L.,2014-01-01,N/A,"Proceedings of the Annual Conference of the International Speech Communication Association, INTERSPEECH"
+Novel noun pronunciation unification approach to improve story boundary identification in the transcription of malay news broadcasts,Khalaf Z.A.,2014-01-01,N/A,International Journal of Computer Science and Applications
+The development and analysis of a Malay broadcasr news corpus,Chong T.Y.,2013-12-01,10.1109/ICSDA.2013.6709862,"2013 International Conference Oriental COCOSDA Held Jointly with 2013 Conference on Asian Spoken Language Research and Evaluation, O-COCOSDA/CASLRE 2013"
+Automatic identification of broadcast news story boundaries using the unification method for popular nouns,Khalaf Z.A.,2013-12-01,N/A,"2013 Federated Conference on Computer Science and Information Systems, FedCSIS 2013"
+Broadcast news story clustering via term and sentence matching,Yow F.,2013-12-01,10.1109/IALP.2013.62,"Proceedings - 2013 International Conference on Asian Language Processing, IALP 2013"
+Improving the accuracy of large vocabulary continuous speech recognizer using dependency parse tree and chomsky hierarchy in lattice rescoring,Hong K.S.,2013-12-01,10.1109/IALP.2013.53,"Proceedings - 2013 International Conference on Asian Language Processing, IALP 2013"
+Unsupervised identification of story boundaries in malay spoken broadcast news,Aleqili Z.A.K.,2013-02-01,10.4304/jetwi.5.1.28-34,Journal of Emerging Technologies in Web Intelligence
+Collection and annotation of Malay conversational speech corpus,Chong T.Y.,2012-12-01,10.1109/ICSDA.2012.6422473,"Proceedings of the 2012 International Conference on Speech Database and Assessments, Oriental COCOSDA 2012"
+"Randomized psychoacoustic model for mobile, panoramic, heritage-viewing applications",Lim C.,2012-12-01,10.1145/2407516.2407588,Proceedings - VRCAI 2012: 11th ACM SIGGRAPH International Conference on Virtual-Reality Continuum and Its Applications in Industry
+Analysis of malay speech recognition for different speaker origins,Juan S.S.,2012-01-01,10.1109/IALP.2012.23,"Proceedings - 2012 International Conference on Asian Language Processing, IALP 2012"
+Pronunciation modeling for Malaysian English,Khaw Y.,2012-01-01,10.1109/IALP.2012.72,"Proceedings - 2012 International Conference on Asian Language Processing, IALP 2012"
+A malay dialect translation and synthesis system: Proposal and preliminary system,Tan T.P.,2012-01-01,10.1109/IALP.2012.14,"Proceedings - 2012 International Conference on Asian Language Processing, IALP 2012"
+Automatic speech recognition of code switching speech using 1-best rescoring,Ahmed B.H.A.,2012-01-01,10.1109/IALP.2012.28,"Proceedings - 2012 International Conference on Asian Language Processing, IALP 2012"

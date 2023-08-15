@@ -1,0 +1,50 @@
+Title,Authors,Publication Date,DOI,Source
+On the resistance of new lightweight block ciphers against differential cryptanalysis,Chan Y.Y.,2023-04-01,10.1016/j.heliyon.2023.e15257,Heliyon
+SIM-P - A Simplified Consensus Protocol Simulator: Applications to Proof of Reputation-X and Proof of Contribution,Oyinloye D.P.,2023-03-15,10.1109/JIOT.2022.3221916,IEEE Internet of Things Journal
+A New Image Encryption Algorithm Based on DNA State Machine for UAV Data Encryption,Alawida M.,2023-01-01,10.3390/drones7010038,Drones
+Differential cryptanalysis of WARP,Teh J.S.,2022-11-01,10.1016/j.jisa.2022.103316,Journal of Information Security and Applications
+A chaos-based block cipher based on an enhanced logistic map and simultaneous confusion-diffusion operations,Alawida M.,2022-11-01,10.1016/j.jksuci.2022.07.025,Journal of King Saud University - Computer and Information Sciences
+An FPP-resistant SVD-based image watermarking scheme based on chaotic control,Alshoura W.H.,2022-07-01,10.1016/j.aej.2021.10.052,Alexandria Engineering Journal
+New differential cryptanalysis results for the lightweight block cipher BORON,Teh J.S.,2022-05-01,10.1016/j.jisa.2022.103129,Journal of Information Security and Applications
+Automated enumeration of block cipher differentials: An optimized branch-and-bound GPU framework,Yeoh W.Z.,2022-03-01,10.1016/j.jisa.2021.103087,Journal of Information Security and Applications
+Differential Cryptanalysis of Lightweight Block Ciphers SLIM and LCB,Chan Y.Y.,2022-01-01,10.1007/978-3-031-23098-1_4,Communications in Computer and Information Science
+BFEDroid: A Feature Selection Technique to Detect Malware in Android Apps Using Machine Learning,Chimeleze C.,2022-01-01,10.1155/2022/5339926,Security and Communication Networks
+An enhanced color visual cryptography scheme based on the binary dragonfly algorithm,Ibrahim D.R.,2022-01-01,10.1080/1206212X.2020.1859244,International Journal of Computers and Applications
+An overview of visual cryptography techniques,Ibrahim D.R.,2021-09-01,10.1007/s11042-021-11229-9,Multimedia Tools and Applications
+Blockchain consensus: An overview of alternative protocols,Oyinloye D.P.,2021-08-01,10.3390/sym13081363,Symmetry
+Network traffic identification of several open source secure proxy protocols,Zhang Y.,2021-03-01,10.1002/nem.2090,International Journal of Network Management
+Lightweight block cipher security evaluation based on machine learning classifiers and active s-boxes,Lee T.R.,2021-01-01,10.1109/ACCESS.2021.3116468,IEEE Access
+A Deep Learning Approach for Active S-Box Prediction of Lightweight Generalized Feistel Block Ciphers,Idris M.F.,2021-01-01,10.1109/ACCESS.2021.3099802,IEEE Access
+An Integrated Architecture for Maintaining Security in Cloud Computing Based on Blockchain,Awadallah R.,2021-01-01,10.1109/ACCESS.2021.3077123,IEEE Access
+Hybrid SVD-Based Image Watermarking Schemes: A Review,Alshoura W.H.,2021-01-01,10.1109/ACCESS.2021.3060861,IEEE Access
+Improved Facial Recognition Algorithms Based on Dragonfly and Grasshopper Optimization,Ibrahim D.R.,2021-01-01,10.1007/978-981-33-4069-5_10,Lecture Notes in Electrical Engineering
+A Novel Hash Function Based on a Chaotic Sponge and DNA Sequence,Alawida M.,2021-01-01,10.1109/ACCESS.2021.3049881,IEEE Access
+"Multifactor authentication system based on color visual cryptography, facial recognition, and dragonfly optimization",Ibrahim D.R.,2021-01-01,10.1080/19393555.2020.1817633,Information Security Journal
+Analysis of differential distribution of lightweight block cipher based on parallel processing on GPU,Chen Z.,2020-12-01,10.1016/j.jisa.2020.102565,Journal of Information Security and Applications
+Generating True Random Numbers Based on Multicore CPU Using Race Conditions and Chaotic Maps,Teh J.S.,2020-12-01,10.1007/s13369-020-04552-0,Arabian Journal for Science and Engineering
+A post-processing method for true random number generators based on hyperchaos with applications in audio-based generators,Teh J.S.,2020-12-01,10.1007/s11704-019-9120-2,Frontiers of Computer Science
+Unkeyed hash function based on chaotic sponge construction and fixed-point arithmetic,Teh J.S.,2020-03-01,10.1007/s11071-020-05504-x,Nonlinear Dynamics
+Implementation and practical problems of chaos-based cryptography revisited,Teh J.S.,2020-02-01,10.1016/j.jisa.2019.102421,Journal of Information Security and Applications
+Enhanced digital chaotic maps based on bit reversal with applications in random bit generators,Alawida M.,2020-02-01,10.1016/j.ins.2019.10.055,Information Sciences
+A machine learning approach to predicting block cipher security,Lee T.R.,2020-01-01,N/A,"Proceedings of the 7th International Cryptology and Information Security Conference 2020, CRYPTOLOGY 2020"
+Automated Search for Block Cipher Differentials: A GPU-Accelerated Branch-and-Bound Algorithm,Yeoh W.Z.,2020-01-01,10.1007/978-3-030-55304-3_9,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+A New Hash Function Based on Chaotic Maps and Deterministic Finite State Automata,Alawida M.,2020-01-01,10.1109/ACCESS.2020.3002763,IEEE Access
+A New Chaotic Image Watermarking Scheme Based on SVD and IWT,Alshoura W.H.,2020-01-01,10.1109/ACCESS.2020.2978186,IEEE Access
+µ<sup>2</sup>: A Lightweight Block Cipher,Yeoh W.,2020-01-01,10.1007/978-981-15-0058-9_27,Lecture Notes in Electrical Engineering
+Deterministic chaotic finite-state automata,Alawida M.,2019-11-01,10.1007/s11071-019-05311-z,Nonlinear Dynamics
+An image encryption scheme based on hybridizing digital chaos and finite state machine,Alawida M.,2019-11-01,10.1016/j.sigpro.2019.06.013,Signal Processing
+A new hybrid digital chaotic system with applications in image encryption,Alawida M.,2019-07-01,10.1016/j.sigpro.2019.02.016,Signal Processing
+A parallelizable chaos-based true random number generator based on mobile device cameras for the Android platform,Yeoh W.,2019-06-30,10.1007/s11042-018-7015-0,Multimedia Tools and Applications
+A chaos-based keyed hash function based on fixed point representation,Teh J.S.,2019-06-15,10.1007/s10586-018-2870-z,Cluster Computing
+Enhancing unimodal digital chaotic maps through hybridisation,Alawida M.,2019-04-01,10.1007/s11071-019-04809-w,Nonlinear Dynamics
+Authentication for ID cards based on colour visual cryptography and facial recognition,Ibrahim D.R.,2019-01-19,10.1145/3309074.3309077,ACM International Conference Proceeding Series
+Digital Cosine Chaotic Map for Cryptographic Applications,Alawida M.,2019-01-01,10.1109/ACCESS.2019.2947561,IEEE Access
+Towards accurate statistical analysis of security margins: New searching strategies for differential attacks,Chen J.,2017-10-01,10.1109/TC.2017.2699190,IEEE Transactions on Computers
+A Stream Cipher based on Spatiotemporal Chaos and True Random Synchronization,Teh J.,2017-05-04,10.1080/03772063.2017.1284617,IETE Journal of Research
+A chaos-based authenticated cipher with associated data,Teh J.,2017-01-01,10.1155/2017/9040518,Security and Communication Networks
+A true random number generator based on hyperchaos and digital sound,Teh J.,2016-12-14,10.1109/ICCOINS.2016.7783225,"2016 3rd International Conference on Computer and Information Sciences, ICCOINS 2016 - Proceedings"
+Improved Differential Characteristic Searching Methods,Chen J.,2016-01-04,10.1109/CSCloud.2015.42,"Proceedings - 2nd IEEE International Conference on Cyber Security and Cloud Computing, CSCloud 2015 - IEEE International Symposium of Smart Cloud, IEEE SSC 2015"
+Improved (related-key) attacks on round-reduced KATAN-32/48/64 based on the extended boomerang framework,Chen J.,2016-01-01,10.1007/978-3-319-40367-0_21,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Accurate estimation of the full differential distribution for general Feistel structures,Chen J.,2016-01-01,10.1007/978-3-319-38898-4_7,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+GPUs and chaos: a new true random number generator,Teh J.S.,2015-12-01,10.1007/s11071-015-2287-7,Nonlinear Dynamics
+Parallel chaotic hash function based on the shuffle-exchange network,Teh J.S.,2015-08-21,10.1007/s11071-015-2049-6,Nonlinear Dynamics

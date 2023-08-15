@@ -1,0 +1,37 @@
+Title,Authors,Publication Date,DOI,Source
+Leveraging Transfer Learning for Spatio-Temporal Human Activity Recognition from Video Sequences,Butt U.M.,2023-01-01,10.32604/cmc.2023.035512,"Computers, Materials and Continua"
+Social groups in pedestrian crowds: review of their influence on the dynamics and their modelling,Nicolas A.,2023-01-01,10.1080/23249935.2021.1970651,Transportmetrica A: Transport Science
+Hybrid of deep learning and exponential smoothing for enhancing crime forecasting accuracy,Butt U.M.,2022-09-01,10.1371/journal.pone.0274172,PLoS ONE
+EMERGENCY ROUTE PLANNING WITH THE SHORTEST PATH METHODS: STATIC AND DYNAMIC OBSTACLES,Ibrahim N.,2022-09-01,10.2507/IJSIMM21-3-608,International Journal of Simulation Modelling
+Prediction of Meteorological Parameter Time Series Data for the Forest Fire Early Warning System,Hadisuwito A.S.,2021-04-20,10.1088/1742-6596/1807/1/012029,Journal of Physics: Conference Series
+Recurrent Stroke Prediction using Machine Learning Algorithms with Clinical Public Datasets: An Empirical Performance Evaluation,Hassan F.H.,2021-01-01,10.21123/bsj.2021.18.4(Suppl.).1406,Baghdad Science Journal
+Machine Learning Based Diabetes Classification and Prediction for Healthcare Applications,Butt U.M.,2021-01-01,10.1155/2021/9930985,Journal of Healthcare Engineering
+Analysis of Deep Neural Networks for Human Activity Recognition in Videos - A Systematic Literature Review,Ullah H.A.,2021-01-01,10.1109/ACCESS.2021.3110610,IEEE Access
+Spatio-Temporal Crime Predictions by Leveraging Artificial Intelligence for Citizens Security in Smart Cities,Butt U.M.,2021-01-01,10.1109/ACCESS.2021.3068306,IEEE Access
+Simulation of Pedestrian Walking Through Angled-Corridors for Evacuation Behaviour Study,Rahman N.A.,2020-07-17,10.1088/1757-899X/877/1/012061,IOP Conference Series: Materials Science and Engineering
+A Comparative Study of the Forest Fire Danger Index Calculation Methods Using Backpropagation,Hadisuwito A.S.,2020-06-17,10.1088/1742-6596/1529/5/052051,Journal of Physics: Conference Series
+Spatiooral crime hotspot detection and prediction: A systematic literature review,Butt U.M.,2020-01-01,10.1109/ACCESS.2020.3022808,IEEE Access
+Path Planning for Mobile Robot Navigation in Unknown Indoor Environments Using Hybrid PSOFS Algorithm,Wahab M.N.A.,2020-01-01,10.1109/ACCESS.2020.3021605,IEEE Access
+Detecting video surveillance using VGG19 convolutional neural networks,butt U.M.,2020-01-01,10.14569/ijacsa.2020.0110285,International Journal of Advanced Computer Science and Applications
+Trajectories and walking velocity of pedestrian walking through angled-corridors: A unidirectional scenario,Rahman N.A.,2019-08-02,10.1088/1757-899X/572/1/012114,IOP Conference Series: Materials Science and Engineering
+Pedestrian evacuation route plan using existing optimal exit selection algorithms,Hassan F.H.,2019-06-01,N/A,International Journal of Innovative Technology and Exploring Engineering
+The Impact of Spatial Layout Design on the Pedestrian Movement during Panic Situation: Pedestrian Survival Prediction,Ibrahim N.,2019-05-30,10.1088/1742-6596/1201/1/012066,Journal of Physics: Conference Series
+Comparing performance of machine learning algorithms in a flood prediction model with real data sets,Hassan F.H.,2019-01-01,10.30534/ijatcse/2019/2381.42019,International Journal of Advanced Trends in Computer Science and Engineering
+Using backpropagation to predict drought factor in keetch-byram drought index,Hadisuwito A.S.,2019-01-01,10.21123/bsj.2019.16.2(SI)0477,Baghdad Science Journal
+Pythagorean theorem for shortest distance in ca based pedestrian simulation: a case study on the closed area,Ibrahim N.,2019-01-01,10.1007/978-981-13-6447-1_9,Lecture Notes in Electrical Engineering
+Optimal moore neighborhood approach of cellular automaton based pedestrian movement: A case study on the closed area,Ibrahim N.,2019-01-01,10.1007/978-3-030-01174-1_5,Advances in Intelligent Systems and Computing
+Incorporating cellular automaton based microscopic pedestrian simulation and genetic algorithm for spatial layout design optimization,Ibrahim N.,2019-01-01,10.1007/978-981-13-2622-6_28,Lecture Notes in Electrical Engineering
+Predicting risk of getting smoking-related cancer: A comparison of three prediction models,Hassan F.,2018-05-02,10.1145/3230905.3230950,ACM International Conference Proceeding Series
+Predictive analysis effectiveness in determining the epidemic disease infected area,Ibrahim N.,2017-10-03,10.1063/1.5005397,AIP Conference Proceedings
+Features of microscopic pedestrian movement in a panic situation based on cellular automata model,Ibrahim N.,2017-10-03,10.1063/1.5005396,AIP Conference Proceedings
+Multi-label classification of estimated time of arrival with ensemble neural networks in bus transportation network,Kee C.,2017-10-02,10.1109/ICITE.2017.8056898,"2017 2nd IEEE International Conference on Intelligent Transportation Engineering, ICITE 2017"
+Incorporating genetic algorithm operators in optimization spatial layout design,Hassan F.,2017-08-25,10.1145/3133264.3133292,ACM International Conference Proceeding Series
+Swap-based discrete firefly algorithm for traveling salesman problem,Chuah H.,2017-01-01,10.1007/978-3-319-69456-6_34,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Features of microscopic horizontal transition of cellular automaton based pedestrian movement in normal and panic situation,Ibrahim N.,2017-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Non-overlapping ratios as fitness function in optimisation spatial layout design,Hassan F.,2017-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Using clustering and predictive analysis of infected area on dengue outbreaks in Malaysia,Ibrahim N.,2017-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Using microscopic pedestrian simulation statistics to find clogging regions,Hassan F.,2016-08-29,10.1109/SAI.2016.7555976,"Proceedings of 2016 SAI Computing Conference, SAI 2016"
+Two-dimensional cellular automaton model to simulate pedestrian evacuation under fire-spreading conditions,Alidmat O.K.A.,2016-01-01,N/A,Journal of Information and Communication Technology
+Automatic layout design solution,Hassan F.,2011-11-09,10.1007/978-3-642-24800-9_20,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Using cellular automata pedestrian flow statistics with heuristic search to automatically design spatial layout,Hassan F.,2010-12-01,10.1109/ICTAI.2010.80,"Proceedings - International Conference on Tools with Artificial Intelligence, ICTAI"
+Using uniform crossover to refine simulated annealing solutions for automatic design of spatial layouts,Hassan F.,2010-12-01,N/A,ICEC 2010 - Proceedings of the International Conference on Evolutionary Computation

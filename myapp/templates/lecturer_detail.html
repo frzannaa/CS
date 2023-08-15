@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lecturer Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .search-form {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+    
+        .search-form .form-control {
+            width: 250px; /* Adjust the width as per your preference */
+            font-family: "Poppins", sans-serif; /* Use Poppins font for the search input */
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+        }
+    
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    
+        /* Use Poppins font for headings and body text */
+        h1, h2, h3, h4, h5, h6, p, a {
+            font-family: "Poppins", sans-serif;
+        }
+    
+        /* Use Poppins font for table content */
+        .table-content {
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* Custom class for the lecturer image */
+        .lecturer-image {
+            width: 200px; /* Adjust the width as per your preference */
+            height: 200px; /* Adjust the height as per your preference */
+            object-fit: cover;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="container">
+                <a class="navbar-brand" href="{% url 'home' %}">
+                    <img src="https://icrp.usm.my/images/USMAPEX-v.png" alt="Logo" width="200" height="50">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+
+                <!-- Updated search form -->
+                {% comment %} <form class="d-flex" action="{% url 'search_lecturer' %}" method="GET">
+                    <input class="form-control me-1" type="search" name="searchLecturer" placeholder="Search" aria-label="Search">
+                    <button type="submit" class="btn btn-outline-success" style="border-color: #A293AD; background-color: #A293AD;">
+                        <i class="fa fa-search" style="color: white;"></i>
+                    </button>
+                </form> {% endcomment %}
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <div class="container">
+
+        {% if lecturer.url %}
+            <a href="{{ lecturer.url }}" class="btn btn-primary">Lecturer Link</a>
+        {% endif %}
+
+        <div class="search-form">
+            <input class="form-control" type="search" id="searchInput" placeholder="Search" aria-label="Search">
+            <button type="submit" class="btn btn-outline-success" style="border-color: #A293AD; background-color: #A293AD;">
+                <i class="fa fa-search" style="color: white;"></i>
+            </button>
+        </div>
+
+        
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <!-- Display the image of the lecturer using img-fluid and rounded-start -->
+                    <img src="{{ lecturer.image.url }}" class="img-fluid rounded-start" alt="{{ lecturer.title }}">
+                    {% if lecturer.url %}
+                        <a href="{{ lecturer.url }}" class="btn btn-primary">Lecturer Link</a>
+                    {% endif %}
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <!-- Display lecturer details using card-title and card-text -->
+                        <h5 class="card-title">{{ lecturer.title }}</h5>
+                        <p class="card-text">{{ lecturer.description }}</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+
+        <!-- Display content from 'author1_papers.csv' -->  
+        <table id="paperTable">
+            <tr>
+                <th>Title</th>
+                <th>Authors</th>
+                <th>Publication Date</th>
+                <th>DOI</th>
+                <th>Source</th>
+            </tr>
+            {% for paper in papers %}
+                <tr>
+                    <td class="table-content">{{ paper.Title }}</td>
+                    <td class="table-content">{{ paper.Authors }}</td>
+                    <td class="table-content">{{ paper.Publication_Date }}</td>
+                    <td class="table-content">{{ paper.DOI }}</td>
+                    <td class="table-content">{{ paper.Source }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <!-- Add back button to return to the home page -->
+        <a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
+    </div>
+
+    <script>
+        // Function to handle the search input and filter the table rows
+        function searchTable() {
+            const input = document.getElementById('searchInput');
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById('paperTable');
+            const rows = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < rows.length; i++) {
+                const rowData = rows[i].getElementsByTagName('td');
+                let found = false;
+
+                for (let j = 0; j < rowData.length; j++) {
+                    const cell = rowData[j];
+                    if (cell) {
+                        const txtValue = cell.textContent || cell.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            found = true;
+                            break;
+                        }
+                    }
+                }
+
+                rows[i].style.display = found ? '' : 'none';
+            }
+        }
+
+        // Attach an event listener to the search input to trigger the search function
+        document.getElementById('searchInput').addEventListener('keyup', searchTable);
+    </script>
+    
+    {% load static %}
+    <script src="{% static 'jquery.min.js' %}" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

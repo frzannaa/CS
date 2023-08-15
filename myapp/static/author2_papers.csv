@@ -1,0 +1,44 @@
+Title,Authors,Publication Date,DOI,Source
+Analysis of Facial Occlusion Challenge in Thermal Images for Human Affective State Recognition,Al Qudah M.,2023-04-01,10.3390/s23073513,Sensors
+Biomechanics Analysis of the Firefighters’ Thorax Movement on Personal Protective Equipment during Lifting Task Using Inertial Measurement Unit Motion Capture,Yunus M.N.H.,2022-11-01,10.3390/ijerph192114232,International Journal of Environmental Research and Public Health
+Data Safety Prediction Using Bird’s Eye View and Social Distancing Monitoring for Penang Roads,Lim L.M.,2022-10-01,10.47836/pjst.30.4.15,Pertanika Journal of Science and Technology
+Behavior Recognition of Group-ranched Cattle from Video Sequences using Deep Learning,Bello R.W.,2022-04-01,10.18805/IJAR.B-1369,Indian Journal of Animal Research
+Cow Image Segmentation Using Mask R-CNN Integrated with Grabcut,Bello R.W.,2022-01-01,10.1007/978-3-030-85990-9_3,Lecture Notes in Networks and Systems
+Smart Waste Management System,Ab Wahab M.N.,2022-01-01,10.1007/978-981-16-2406-3_55,Lecture Notes in Electrical Engineering
+Effects of different parameter settings for 3d data smoothing and mesh simplification on near real-time 3d reconstruction of high resolution bioceramic bone void filling medical images,Chin D.J.Y.,2021-12-01,10.3390/s21237955,Sensors
+A Precision Agricultural Application: Manggis Fruit Classification Using Hybrid Deep Learning,Sumari P.,2021-10-01,10.18280/ria.350503,Revue d'Intelligence Artificielle
+Computer vision-based techniques for cow object recognition,Bello R.W.,2021-09-29,10.1088/1755-1315/858/1/012008,IOP Conference Series: Earth and Environmental Science
+Implementation of kinetic and kinematic variables in ergonomic risk assessment using motion capture simulation: A review,Yunus M.N.H.,2021-08-01,10.3390/ijerph18168342,International Journal of Environmental Research and Public Health
+Enhanced mask r-cnn for herd segmentation,Bello R.W.,2021-07-01,10.25165/j.ijabe.20211404.6398,International Journal of Agricultural and Biological Engineering
+A New Speech Recognition Model in a Human-Robot Interaction Scenario Using NAO Robot: Proposal and Preliminary Model,Younis H.A.,2021-06-05,10.1109/ICICT52195.2021.9568457,"International Conference on Communication and Information Technology, ICICT 2021"
+Framing twitter public sentiment on Nigerian government COVID-19 palliatives distribution using machine learning,Adamu H.,2021-03-02,10.3390/su13063497,Sustainability (Switzerland)
+Text Reader for Visually Impaired Person,Wahab M.N.A.,2021-03-01,10.1088/1742-6596/1755/1/012055,Journal of Physics: Conference Series
+Affective state recognition using thermal-based imaging: A survey,Al Qudah M.M.M.,2021-02-01,10.32604/CSSE.2021.015222,Computer Systems Science and Engineering
+Enhanced Deep Learning Framework for Cow Image Segmentation,Bello R.W.,2021-01-01,N/A,IAENG International Journal of Computer Science
+Human Stress Recognition from Facial Thermal-Based Signature: A Literature Survey,Arasu D.B.L.,2021-01-01,10.32604/CMES.2021.016985,CMES - Computer Modeling in Engineering and Sciences
+GPU-Accelerated Enhanced Marching Cubes 33 for Fast 3D Reconstruction of Large Bone Defect CT Images,Chin D.J.Y.,2021-01-01,10.1007/978-3-030-90235-3_33,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Movement Estimation Using Mediapipe BlazePose,Pauzi A.S.B.,2021-01-01,10.1007/978-3-030-90235-3_49,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Efficientnet-Lite and Hybrid CNN-KNN Implementation for Facial Expression Recognition on Raspberry Pi,Ab Wahab M.N.,2021-01-01,10.1109/ACCESS.2021.3113337,IEEE Access
+Contour Extraction of Individual Cattle from an Image Using Enhanced Mask R-CNN Instance Segmentation Method,Bello R.W.,2021-01-01,10.1109/ACCESS.2021.3072636,IEEE Access
+Deep belief network approach for recognition of cow using cow nose image pattern,Bello R.W.,2021-01-01,10.48048/wjst.2021.8984,Walailak Journal of Science and Technology
+"Survey of robotics in education, taxonomy, applications, and platforms during COVID-19",Younis H.A.,2021-01-01,10.32604/cmc.2021.013746,"Computers, Materials and Continua"
+Cattle identification: The history of nose prints approach in brief,Bello R.W.,2020-12-17,10.1088/1755-1315/594/1/012026,IOP Conference Series: Earth and Environmental Science
+"The review of NAO robotics in Educational 2014-2020 in COVID-19 Virus (Pandemic Era): Technologies, type of application, advantage, disadvantage and motivation",Ayounis H.,2020-11-18,10.1088/1757-899X/928/3/032014,IOP Conference Series: Materials Science and Engineering
+The sound of trust: Towards modelling computational trust using voice-only cues at zero-acquaintance,Yee Hui D.O.,2020-01-01,10.25046/AJ050456,"Advances in Science, Technology and Engineering Systems"
+Deep learning-based architectures for recognition of cow using cow nose image pattern,Bello R.W.,2020-01-01,10.35378/gujs.605631,Gazi University Journal of Science
+Image-based individual cow recognition using body patterns,Bello R.W.,2020-01-01,N/A,International Journal of Advanced Computer Science and Applications
+The Impact of Spatial Layout Design on the Pedestrian Movement during Panic Situation: Pedestrian Survival Prediction,Ibrahim N.,2019-05-30,10.1088/1742-6596/1201/1/012066,Journal of Physics: Conference Series
+Facial recognition adaptation as biometric authentication for intelligent door locking system,Mohamed A.S.A.,2019-01-01,10.1007/978-3-030-34032-2_24,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+iPassenger: Smart passenger analytics system,Ab Wahab M.N.,2019-01-01,10.1007/978-3-030-34032-2_41,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Smart mirror design powered by raspberry Pi,Mohamed A.S.A.,2018-12-21,10.1145/3299819.3299840,ACM International Conference Proceeding Series
+An overview of hand-based multimodal biometrie system using multi-classifier score fusion with score normalization,Shanmugasundaram K.,2018-03-01,10.1109/CSPC.2017.8305806,"Proceedings of IEEE International Conference on Signal Processing and Communication, ICSPC 2017"
+Gesture based help identification for hospital&amp; elderlycare using dynamic time warping: A systematic study,Azlan Mohamed A.S.,2017-12-27,10.1145/3177404.3177426,ACM International Conference Proceeding Series
+Patellar tendon in vivo regional strain with varying knee angle,Pearson S.J.,2017-08-16,10.1016/j.jbiomech.2017.06.038,Journal of Biomechanics
+Face recognition with real time eye lid movement detection,Sukri S.,2017-01-01,10.1007/978-3-319-70010-6_33,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Body matching algorithm using normalize dynamic time warping (NDTW) skeleton tracking for traditional dance movement,Mohamed A.,2017-01-01,10.1007/978-3-319-70010-6_62,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Hybrid improved bacterial swarm (HIBS) optimization algorithm,Shanmugasundaram K.,2017-01-01,10.1007/978-3-319-70010-6_7,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Automatic laser welding defect detection and classification using sobel-contour shape detection,Halim M.A.A.,2016-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Interactive sign language interpreter using skeleton tracking,Muhammad A.,2016-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Optimized Segmentation of Cellular Tomography through Organelles' Morphology and Image Features,Ruhaiyem N.,2016-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Regional strain variations in the human patellar tendon,Pearson S.,2014-01-01,10.1249/MSS.0000000000000247,Medicine and Science in Sports and Exercise
+The use of normalized cross-correlation analysis for automatic tendon excursion measurement in dynamic ultrasound imaging,Pearson S.,2013-01-01,10.1123/jab.29.2.165,Journal of Applied Biomechanics

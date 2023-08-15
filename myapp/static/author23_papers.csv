@@ -1,0 +1,51 @@
+Title,Authors,Publication Date,DOI,Source
+A systematic literature review on attacks defense mechanisms in RPL-based 6LoWPAN of Internet of Things,Al-Amiedy T.A.,2023-07-01,10.1016/j.iot.2023.100741,Internet of Things (Netherlands)
+Crowd Management: Simulation Modelling and Visualization Via Fuzzy Agents,Zali M.N.,2023-01-10,10.1063/5.0110450,AIP Conference Proceedings
+Flow-Based IDS Features Enrichment for ICMPv6-DDoS Attacks Detection,Elejla O.E.,2022-12-01,10.3390/sym14122556,Symmetry
+IoT Adoption and Application for Smart Healthcare: A Systematic Review,Al-rawashdeh M.,2022-07-01,10.3390/s22145377,Sensors
+Credit Card Fraud Detection Using a New Hybrid Machine Learning Architecture,Malik E.F.,2022-05-01,10.3390/math10091480,Mathematics
+A Systematic Literature Review on Machine and Deep Learning Approaches for Detecting Attacks in RPL-Based 6LoWPAN of Internet of Things,Al-Amiedy T.A.,2022-05-01,10.3390/s22093400,Sensors
+Conceptual Framework for Optimized Pipeline Selection for Brain Tractography Using Multi-Criteria Decision Analysis,Fazili I.,2022-01-01,10.1109/CCISP55629.2022.9974377,"Proceedings - 2022 7th International Conference on Communication, Image and Signal Processing, CCISP 2022"
+Comparative analysis of some selected generative adversarial network models for image augmentation: A case study of COVID-19 x-ray and CT images,Ubale Kiru M.,2022-01-01,10.3233/JIFS-220017,Journal of Intelligent and Fuzzy Systems
+Dominant Gray Level Based Particle Swarm Optimization Clustering for Segmenting Brain Tumor Sub-regions from Multimodal Magnetic Resonance Images,Fawzi A.,2022-01-01,10.1007/978-981-16-8515-6_46,Lecture Notes in Electrical Engineering
+Brain image segmentation in recent years: A narrative review,Fawzi A.,2021-08-01,10.3390/brainsci11081055,Brain Sciences
+Ensemble Feature Selection Approach for Detecting Denial of Service Attacks in RPL Networks,Alamiedy T.A.,2021-01-01,10.1007/978-981-16-8059-5_21,Communications in Computer and Information Science
+Adaptive Clip Limit Tile Size Histogram Equalization for Non-Homogenized Intensity Images,Fawzi A.,2021-01-01,10.1109/ACCESS.2021.3134170,IEEE Access
+SBI Model for the Detection of Advanced Persistent Threat Based on Strange Behavior of Using Credential Dumping Technique,Mohamed N.,2021-01-01,10.1109/ACCESS.2021.3066289,IEEE Access
+Intelligent Automatic Door System based on Supervised Learning,Kiru M.U.,2020-11-17,10.1109/ICOS50156.2020.9293673,"2020 IEEE Conference on Open Systems, ICOS 2020"
+Computer-aided superimposition via reconstructing and matching 3D faces to 3D skulls for forensic craniofacial identifications,Tan J.S.,2020-09-01,10.1007/s00371-019-01767-7,Visual Computer
+"ICMPV6-based DOS and DDoS attacks detection using machine learning techniques, open challenges, and blockchain applicability: A review",Tayyab M.,2020-01-01,10.1109/ACCESS.2020.3022963,IEEE Access
+Labeled flow-based dataset of ICMPv6-based DDoS attacks,Elejla O.,2019-08-01,10.1007/s00521-017-3319-7,Neural Computing and Applications
+A hybrid neural knowledge expert system with parallel coordinates visualization in dengue diagnosis prediction,Thomas J.J.,2019-01-01,10.22452/mjcs.sp2019no1.3,Malaysian Journal of Computer Science
+Visual Analytics Solution for Scheduling Processing Phases,Joshua Thomas J.,2019-01-01,10.1007/978-3-030-00979-3_42,Advances in Intelligent Systems and Computing
+Comparison of classification algorithms on ICMPv6-based DDoS attacks detection,Elejla O.E.,2019-01-01,10.1007/978-981-13-2622-6_34,Lecture Notes in Electrical Engineering
+Flow-Based IDS for ICMPv6-Based DDoS Attacks Detection,Elejla O.E.,2018-12-01,10.1007/s13369-018-3149-7,Arabian Journal for Science and Engineering
+Intrusion Detection Systems of ICMPv6-based DDoS attacks,Elejla O.E.,2018-07-01,10.1007/s00521-016-2812-8,Neural Computing and Applications
+A functional pipeline framework for landmark identification on 3D surface extracted from volumetric data,Zheng P.,2017-11-01,10.1371/journal.pone.0187558,PLoS ONE
+A New Set of Features for Detecting Router Advertisement Flooding Attacks,Elejla O.,2017-09-14,10.1109/PICICT.2017.19,"Proceedings - 2017 Palestinian International Conference on Information and Communication Technology, PICICT 2017"
+ICMPv6-Based DoS and DDoS Attacks and Defense Mechanisms: Review,Elejla O.E.,2017-07-04,10.1080/02564602.2016.1192964,"IETE Technical Review (Institution of Electronics and Telecommunication Engineers, India)"
+IPv6 OS fingerprinting methods: Review,Elejla O.E.,2017-01-01,10.1007/978-3-319-70010-6_61,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Optimized Segmentation of Cellular Tomography through Organelles' Morphology and Image Features,Ruhaiyem N.,2016-01-01,N/A,"Journal of Telecommunication, Electronic and Computer Engineering"
+Division-based large point set registration using coherent point drift (CPD) with automatic parameter tuning,Chen J.,2015-06-23,10.3233/IFS-141513,Journal of Intelligent and Fuzzy Systems
+A neural network-based point registration method for 3D rigid face image,Chen J.,2015-03-01,10.1007/s11280-013-0213-9,World Wide Web
+SpaceViz: Visualization tool for the computer storage big-data,Thomas J.J.,2015-01-01,10.1109/SmartCity.2015.181,"Proceedings - 2015 IEEE International Conference on Smart City, SmartCity 2015, Held Jointly with 8th IEEE International Conference on Social Computing and Networking, SocialCom 2015, 5th IEEE International Conference on Sustainable Computing and Communications, SustainCom 2015, 2015 International Conference on Big Data Intelligence and Computing, DataCom 2015, 5th International Symposium on Cloud and Service Computing, SC2 2015"
+An analytical curvature B-spline algorithm for effective curve modeling,Tan J.,2015-01-01,10.1007/978-3-319-25939-0_25,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Distance-based 3D face reconstruction using regularization,Maghari A.Y.A.,2015-01-01,10.1007/978-3-319-25939-0_42,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Dbi-stage large point set registration using gaussian mixture models,Chen J.,2015-01-01,10.1007/978-3-319-16814-2_14,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Adaptive face modelling for reconstructing 3D face shapes from single 2D images,Maghari A.,2014-10-01,10.1049/iet-cvi.2013.0220,IET Computer Vision
+An improved iterative closest point algorithm for rigid point registration,Chen J.,2014-01-01,10.1007/978-3-662-45652-1_26,Communications in Computer and Information Science
+Improving accuracy of applications fingerprinting on local networks using NMAP-AMAP-ETTERCAP as a hybrid framework,Ghanem W.A.H.M.,2013-12-01,10.1109/ICCSCE.2013.6719998,"Proceedings - 2013 IEEE International Conference on Control System, Computing and Engineering, ICCSCE 2013"
+Reconstructing 3D face shapes from single 2D images using an adaptive deformation model,Maghari A.,2013-11-11,10.1007/978-3-319-02958-0_28,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+A robust subset-ICP method for point set registration,Chen J.,2013-11-11,10.1007/978-3-319-02958-0_6,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+PCA-based reconstruction of 3D face shapes using tikhonov regularization,Maghari A.Y.A.,2013-09-24,N/A,International Journal of Advances in Soft Computing and its Applications
+Verification mechanism for online responses in criteria prioritization,Lim C.,2013-02-11,10.4028/www.scientific.net/AMM.275-277.2555,Applied Mechanics and Materials
+Visualizing phylogenetic trees: Algorithms and visual comparison techniques,Zainon W.M.N.W.,2013-01-31,10.4028/www.scientific.net/AMM.241-244.2807,Applied Mechanics and Materials
+Effect of training sample on reconstructing 3D face shapes from feature points,Maghari A.Y.A.,2013-01-01,10.1007/978-3-319-03783-7_12,Communications in Computer and Information Science
+Effect of facial feature points selection on 3D face shape reconstruction using regularization,Maghari A.,2012-11-19,10.1007/978-3-642-34500-5_61,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+Integrated problem solving steering framework on clash reconciliation strategies for university examination timetabling problem,Thomas J.J.,2012-11-19,10.1007/978-3-642-34478-7_37,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+An automated adaption of K-means based hybrid segmentation system into direct volume rendering object distinction mode for enhanced visualization effect,Irani A.,2012-11-06,10.1109/CGIV.2012.14,"CGiV 2012 - 2012 9th International Conference on Computer Graphics, Imaging and Visualization"
+Quantitative analysis on PCA-based statistical 3D face shape modeling,Maghari A.,2012-10-26,N/A,"Computational Modelling of Objects Represented in Images: Fundamentals, Methods and Applications III - Proceedings of the International Symposium, CompIMAGE 2012"
+A methodology for deliberating prediction criteria,Lim C.Y.,2012-01-01,10.4028/www.scientific.net/AMM.130-134.1758,Applied Mechanics and Materials
+A practical rough sets analysis in real-world examination timetabling problem instances,Joshua Thomas J.,2011-12-16,10.1007/978-3-642-22786-8_3,Communications in Computer and Information Science
+A parallel coordinates visualization for the uncapaciated examination timetabling problem,Thomas J.J.,2011-11-21,10.1007/978-3-642-25191-7_10,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+The gradient of the maximal curvature estimation for crest lines extraction,Zheng P.,2011-11-21,10.1007/978-3-642-25191-7_19,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)

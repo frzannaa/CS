@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>USM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+
+      /* Use Poppins font for headings and body text */
+      h1, h2, h3, h4, h5, h6, p, a {
+          font-family: "Poppins", sans-serif;
+      }
+        /* Set a fixed height for the carousel container */
+        #carouselExampleIndicators {
+            height: 500px; /* Adjust this value to your desired height */
+            overflow: hidden; /* Prevent images from overflowing the container */
+        }
+
+        /* Set the images to cover the container and maintain aspect ratio */
+        #carouselExampleIndicators img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-bottom: 30px; /* You can adjust the padding value as per your preference */
+
+        }
+
+        /* Additional styles for the search bar */
+        .search-form {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+
+        .search-form .form-control {
+            width: 250px; /* Adjust the width as per your preference */
+       
+        }
+
+        /* Rounded cards */
+        .card {
+            border-radius: 10px; /* Adjust the radius as per your preference */
+           
+         
+        }
+        .custom-card {
+            height: 100px; /* Adjust the height as per your preference */
+        }
+
+        #lecturers {
+            padding: 60px 0;
+        }
+    
+        /* Add space between the carousel and lecturer cards */
+        .carousel-container {
+            margin-bottom: 30px;
+        }
+    
+        .lecturers .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Add some spacing between the cards */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .lecturers .card .pic img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%; /* Add circular shape */
+            margin: 0 auto; /* Center the image horizontally */
+            display: block;
+            margin-top: 20px;
+        }
+    
+        /* Center the "View Details" button inside the card body */
+.lecturers .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+    
+        .lecturers .card-body h4 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    
+        .lecturers .card-body p {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 20px;
+            overflow: hidden; /* Hide any overflowing content */
+            text-overflow: ellipsis; /* Add ellipsis (...) for long text */
+            height: 100px; /* Set a fixed height for the card body content */
+        }
+    
+        .lecturers .card-body .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #A293AD;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+    
+        .lecturers .card-body .btn:hover {
+            background-color: #937E9E;
+        }
+    
+        /* Additional styles to make all cards in a row have the same height */
+        @media (min-width: 992px) {
+            .lecturers .row-cols-md-4 > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+
+        .section-title {
+            text-align: center;
+            padding-bottom: 30px;
+          }
+          
+          .section-title h2 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            color: black;
+          }
+        
+          .section-title h2::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 120px;
+            height: 1px;
+            background: #ddd;
+            bottom: 1px;
+            left: calc(50% - 60px);
+          }
+          
+          .section-title h2::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #A293AD;
+            bottom: 0;
+            left: calc(50% - 20px);
+          }
+
+          .counts {
+            background: #f3f0f4;
+            padding: 50px 0 50px;
+          }
+          
+          .counts .count-box {
+            padding: 30px 30px 25px 30px;
+            width: 100%;
+            position: relative;
+            text-align: center;
+            background: #A293AD;
+          }
+          
+          .counts .count-box i {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            background: #fff;
+            color: #A293AD;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+          }
+          
+          .counts .count-box span {
+            font-size: 36px;
+            display: block;
+            font-weight: 600;
+            color: #082744;
+          }
+          
+          .counts .count-box p {
+            padding: 0;
+            margin: 0;
+            font-family: "Raleway", sans-serif;
+            font-size: 14px;
+            color: white;
+          }
+
+          .departments {
+            overflow: hidden;
+        }
+        
+        .departments .nav-tabs {
+            border: 0;
+        }
+        
+        .departments .nav-link {
+            border: 0;
+            padding: 12px 15px 12px 0;
+            transition: 0.3s;
+            color: #A293AD;
+            border-radius: 0;
+            border-right: 2px solid #ebf1f6;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        .departments .nav-link:hover {
+            color: #1a1a1a;
+        }
+        
+        .departments .nav-link.active {
+            color: #1a1a1a;
+            border-color: #A293AD ;
+        }
+        
+        .departments .tab-pane.active {
+            animation: fadeIn 0.5s ease-out;
+        }
+        
+        .departments .details h3 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        .departments .details p {
+            color: #1a1a1a;
+        }
+        
+        .departments .details p:last-child {
+            margin-bottom: 0;
+        }
+        
+        @media (max-width: 992px) {
+            .departments .nav-link {
+                border: 0;
+                padding: 15px;
+            }
+            .departments .nav-link.active {
+                color: #A293AD;
+                background: #f3f0f4;
+            }
+        }
+
+        
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #fff;
+  box-shadow: 0px 5px 15px rgba(230, 226, 233);
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #1977cc;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+  background: #1c84e3;
+}
+
+#footer .footer-top .footer-links ul a {
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+  color: #444444;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #A293AD;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #1c84e3;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+          
+    </style>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'home' %}">
+                <img src="https://icrp.usm.my/images/USMAPEX-v.png" alt="Logo" width="200" height="50">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                </li>
+            </ul>
+
+            <!-- Updated search form -->
+            <form class="d-flex" action="{% url 'search_lecturer' %}" method="GET">
+                <input class="form-control me-1" type="search" name="searchLecturer" placeholder="Search" aria-label="Search">
+                <button type="submit" class="btn btn-outline-success" style="border-color: #A293AD; background-color: #A293AD;">
+                    <i class="fa fa-search" style="color: white;"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!-- End of Navbar -->
+<div class="carousel-container">
+        {% block content %}
+        <!-- Add the carousel here -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://icert.usm.my/images/dtsp2.jpg" class="d-block w-500" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.etawau.com/edu/UniversitiesPublic/USM/images/USM_01b.jpg" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cs.usm.my/templates/yootheme/cache/b6/cs-b67af4c9.webp" class="d-block w-100" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        
+ <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="count-box">
+                    <i class="fas fa-user-md"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Lecturer</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                  <div class="count-box">
+                    <i class="far fa-hospital"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Program</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                  <div class="count-box">
+                    <i class="fas fa-flask"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Research Labs</p>
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                  <div class="count-box">
+                    <i class="fas fa-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Awards</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Counts Section -->
+        
+           <!-- ======= Departments Section ======= -->
+           <section id="departments" class="departments">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Research Labs</h2>
+            <p>Computer Sciences has 3 Research Labs</p>
+          </div>
+          <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-3">
+                <ul class="nav nav-tabs flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Data To Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Service Computing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Enabling Technologies & Infrastructure</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-lg-9">
+            
+              <div class="tab-content">
+                  <div class="tab-pane active show" id="tab-1">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Data To Knowledge</h3>
+                      <p class="fst-italic">With advances in technologies, research community is flooded with ever-increasing dataset with different nature.</p>
+                      <p>Hence the Data to Knowledge Cluster at the School of Computer Sciences has been expanded to consist of five sub clusters 
+                        that encompasses Computational Intelligence, Computer Vision & Image Processing, Visual Informatics, Language Engineering & Knowledge Engineering.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Service Computing</h3>
+                      <p class="fst-italic">Services Computing has become a vital paradigm in empowering modern society with a flexible infrastructure and processing environment.</p>
+                      <p>In line with this, the Services Computing Cluster at the School of Computer Sciences has been further expanded to consist of four sub clusters that look into 
+                        Enterprise Computing, Software Engineering, Social and Sustainable Computing and Multimedia System.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="tab-pane" id="tab-4">
+                  <div class="row gy-4">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Enabling Technologies & Infrastructure</h3>
+                      <p class="fst-italic">The infrastructure to support such sharing and reuse would lead to greater ubiquity of these systems.s</p>
+                      <p>Hence the Enabling Technology and Infrastructure Cluster at the School of Computer Sciences has been expanded to consist of three sub clusters that includes High Performance Computing, Computer Networks, and Information Security.</p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+                
+  
+        </div>
+      </section>
+      
+      <!-- End Departments Section -->
+        
+<div class="section-title">
+  <div class="container">
+    <h2>Our Lecturer</h2>
+    <p>With advances in technologies, research community is flooded with ever-increasing dataset with different nature. 
+        Hence the need to locate, analyse and use these data becomes prominent for visualising and charting new discoveries. 
+        The research that falls in this cluster aims to develop new approaches, standards, methods, tools, and software that 
+        will enhance the use of these data by supporting research, implementation and training in data science. 
+        Hence the Data to Knowledge Cluster at the School of Computer Sciences has been expanded to consist of five sub clusters 
+        that encompasses Computational Intelligence, Computer Vision & Image Processing, Visual Informatics, Language Engineering & Knowledge Engineering.</p>
+
+       
+        <div class="lecturers" style="margin-top: 30px;">
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+              {% for lecturer in lecturers %}
+              <div class="col">
+                  <div class="card">
+                      <div class="pic">
+                          <img src="{{ lecturer.image.url }}" class="card-img-top" alt="{{ lecturer.title }}">
+                      </div>
+                      <div class="card-body">
+                          <h4 class="card-title fw-bold">{{ lecturer.title }}</h4>
+                          <p class="card-text">{{ lecturer.description }}</p>
+                          <!-- "View Details" button with a link to the lecturer detail view -->
+                          <a href="{% url 'lecturer_detail' lecturer.id %}" class="btn">View Details</a>
+                      </div>
+                  </div>
+              </div>
+              {% endfor %}
+          </div>
+      </div>
+      
+
+    </div>
+<!-- Add the YouTube video card here -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3g-3c9ucgLE" allowfullscreen></iframe>
+</div>
+
+{% endblock %}
+</div>
+
+
+<!--Footer-->
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    </div>
+  </div>
+
+<div>
+    <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.072377750498!2d100.30162107019703!3d5.354798900039636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac1a96f010e97%3A0x8b91d5d092b91828!2sSchool%20of%20Computer%20Sciences%2C%20USM!5e0!3m2!1sid!2smy!4v1690788989714!5m2!1sid!2smy" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-5 footer-contact">
+          <h3>School Of Computer Sciences</h3>
+          <p>
+            Universiti Sains Malaysia, <br>
+            11800 USM Penang,<br>
+            Malaysia. <br><br>
+            <strong>Phone:</strong> +604-653 3647/2158/2155 <br>
+            <strong>Fax:</strong> +604-653 3684 <br>
+            <strong>Email:</strong>  cs@usm.my<br>
+          </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container d-md-flex py-4">
+
+    </div>
+    <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <a href="https://www.facebook.com/PPSKOM" class="fa fa-facebook"></a>
+      <a href="https://www.youtube.com/@SchoolofComputerSciencesUSM" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/cs.usm/" class="fa fa-instagram"></a>
+    
+      
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!--End of-->
+
+    {% load static %}
+    <script src="{% static 'jquery.min.js' %}" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.15/dist/jquery.bxslider.min.js"></script>
+
+    <script>
+    </script>
+</body>
+</html>
